@@ -1,0 +1,74 @@
+@media (max-width: 760px) {
+  .admin-page .shell,
+  .login-page {
+    padding-inline: 16px;
+  }
+
+  .admin-page .panel {
+    padding: 20px 16px;
+  }
+
+  .admin-data {
+    min-width: 0;
+  }
+
+  .admin-data .head {
+    display: none;
+  }
+
+  .admin-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 18px 0;
+  }
+
+  .admin-row > span:first-child {
+    color: var(--forest);
+    font-size: .78rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+  }
+
+  .admin-row > span:nth-of-type(2)::before,
+  .admin-row > span:nth-of-type(3)::before {
+    display: block;
+    margin-bottom: 3px;
+    color: #66746a;
+    font-size: .72rem;
+    font-weight: 800;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+
+  .admin-row > span:nth-of-type(2)::before {
+    content: "Renda familiar";
+  }
+
+  .admin-row > span:nth-of-type(3)::before {
+    content: "Situação";
+  }
+
+  .admin-row .secondary,
+  .edit-panel input,
+  .edit-panel select {
+    width: 100%;
+  }
+
+  .edit-panel {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .whatsapp-links {
+    gap: 12px;
+  }
+
+  .whatsapp-links a {
+    min-height: 36px;
+    padding: 6px 9px;
+    border: 1px solid #cfe1d3;
+    border-radius: 7px;
+    font-size: .82rem;
+  }
+}
